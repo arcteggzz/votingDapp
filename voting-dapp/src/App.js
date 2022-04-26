@@ -1,9 +1,13 @@
 import './App.css';
+import NavBar from "./components/Pages/navBar"
+import Test from "./components/Pages/Test"
+
 
 function App() {
   return (
     <div className="App">
-      <div className=''>Arcteggzz</div>
+      {/* <NavBar /> */}
+      <Test />
     </div>
   );
 }
